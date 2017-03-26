@@ -1,2 +1,4 @@
-# LeohnerPortfolio.github.io
+# LeohnerPortfolio
+Lauren Leohner
 deliverable one portfolio site
+
