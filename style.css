@@ -87,7 +87,7 @@ img:hover{
 }
 
 fieldset{
-  width: 300px;
+  width: 280px;
   border: 1px solid black;
   border-radius: 10px;
   margin: auto;
@@ -95,6 +95,13 @@ fieldset{
   line-height: 2em;
   text-decoration: none;
   text-align: right;
+}
+#replytext{
+  height: 20px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 input{
@@ -114,8 +121,12 @@ textarea{
   resize: none;
 }
 
-input[type=submit]{
+button{
   background-color: #EEA4FF;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   border: none;
   border-radius: 30px;
   padding: 8px 16px;

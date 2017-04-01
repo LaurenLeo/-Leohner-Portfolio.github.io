@@ -7,6 +7,7 @@
   <title>Lauren Leohner - Contact</title>
   <link rel="stylesheet" type="text/css" href="../style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
@@ -23,23 +24,27 @@
       </div>
   </div>
   <h3>Enter contact information below.</h3>
-  <form>
-  <fieldset>
-    <label for="first-name">First Name: </label>
-    <input type="text" name="first-name" /><br>
-    <label for="last-name">Last Name: </label>
-    <input type="text" name="last-name" /><br>
-    <label for="email">Email: </label>
-    <input type="email" name="email" required="required" /><br>
-    <textarea cols="30" rows="10" placeholder="Write a short message!" /></textarea><br>
-    <input type="submit" value="Submit" />
-  </fieldset>
-</form>
-
-
+  <form id="contactform">
+   <fieldset>
+     <label for="firname">First Name: </label>
+     <input type="text" id="firname" name="firname" required/><br>
+     <label for="lname">Last Name: </label>
+     <input type="text" id="lname" name="lname" /><br>
+     <label for="email">Email: </label>
+     <input type="email" name="email" required/><br>
+     <textarea cols="30" rows="10" placeholder="Write a short message!" /></textarea><br>
+   </fieldset>
+    <button type="button" onclick="outputName()"/>Submit</button>
+ </form>
+ <div id="replytext">
+   <p id="reply"></p>
+</div>
   <!--FOOTER-->
   <div id="footer">
     <p>&copy; 2017 Lauren Leohner <a href="https://www.instagram.com/laurenleohner/" class="fa fa-instagram"></a></p>
   </div>
+  <script type="text/javascript" src="simple.js"></script>
+
+
 </body>
 </html>
